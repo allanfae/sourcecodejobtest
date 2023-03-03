@@ -6,18 +6,13 @@ b) Evite usar funções prontas, como, por exemplo, reverse;
 
 
 string = input("Digite a string que voce deseja reverter:")
-store = []
-storeinvertida=[]
-x = 0
-
-for i in range(len(string)):
-    store.append(string[x])
-    x += 1
+storeInvertida = []
+tamanhoInput = len(string)
 
 for i in string:
-    storeinvertida.append(store[x-1])
-    x -= 1
+    storeInvertida.append(string[tamanhoInput-1])
+    tamanhoInput -= 1
 
-print(''.join(storeinvertida))
+print(''.join(storeInvertida))
 
 

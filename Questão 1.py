@@ -24,4 +24,4 @@ while K < INDICE: #Condição do loop. Enquanto o valor de k for menor que o val
 
 print(sum) #Simples comando de exibição do resultado da soma(sum)
 
-Obtemos o resultado de 91 no print da variável sum.
+Obtemos o resultado de 91 no print da variável sum
